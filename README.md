@@ -231,3 +231,62 @@ var executor = function(fn,name){
   fn(name);
 }
 executor(print,'Sasi'); // Hello;
+
+#Function inside Object
+
+Ex:
+var myObj = {
+  prop1 : 1
+}
+
+myObj.myFn = function(){
+  console.log('new function');
+}
+
+myObj.myFn(); //prints new function
+
+#this Keyword in functions
+var person = {
+  fname : 'Sasi',
+  lname : 'Kumar',
+  getFullName : function(){
+    return person.fname + " " + person.lname;
+  }
+};
+
+console.log(person.getFullName()); // output??
+
+var person2 = person;
+
+console.log(person2.getFullName()); // output??
+
+person = {}
+
+console.log(person2.getFullName()); // output??
+
+Excercise
+
+var person = {
+  fname : 'Sasi',
+  lname : 'Kumar',
+  getFullName : function(){
+    return person.fname + " " + person.lname;
+  },
+  address : {
+    street: '12123 st',
+    city : 'Chennai',
+    state : 'TN'
+  },
+  isFromState : //Write a function that says if the person is from the state we are passing
+};
+
+console.log(person.isFromState('TN'));
+
+#Default function arguments -- get 2 args for free arguments,this
+
+var add = function(a,b){
+  console.log(arguments)
+  console.log(a+b)
+}
+
+add(10,20,30);
