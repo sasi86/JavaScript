@@ -15,3 +15,27 @@ To Rich Web Dev
   . Angular JS, React JS, Ember
 Server Side
  . Node Js
+
+ECMA Script - Spec for Javascript
+latest ECMA script ES6
+
+Variable
+------
+No Typed Variable
+var myVariable;
+
+Type:
+String
+Number
+Boolean
+Array ex: var myVar = [10,'Sasi',true]
+undefined (absence of value)
+null (special value indicated for non value) Middle Name Example
+Object
+
+Mix and Match: //Loose Typing
+var a =10;
+a='Hello'
+
+Decleration(declare variable) and Definition(assign Value)
+
