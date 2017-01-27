@@ -44,7 +44,7 @@ OPERATOR
 typeof - gives dataType
 =
 == 
-
+===
 
 
 if Condition
