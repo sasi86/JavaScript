@@ -1,6 +1,9 @@
 https://developer.mozilla.org/en-US/docs/Glossary/JavaScript
+
 https://angularjs.org/
+
 #Angular
+
 Client side javascript framework that lets you extend HTML vocabulary for your application. More of Declarative programming
 
 Problem Statement: Display the Current Date in HTML
