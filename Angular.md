@@ -11,5 +11,6 @@ Angular Way of Doing - Declare element type, Define logic, Use Element type
 
 
 Custom Elements :- (created in two ways) Ex: slider
+
 1. Directives
 2. Components
