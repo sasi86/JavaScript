@@ -6,5 +6,5 @@ Advantages :
 
 1. Introduces Types for data
 
-
+![alt text](https://github.com/sasi86/JavaScript/blob/master/1.PNG)
 
